@@ -27,16 +27,16 @@ Doctors can:
 
 ##⚙️ Features
 
-✅ Add Patient — Register new patients with details like name, age, gender, blood group, contact info, etc.
-✅ Add Medicine — Record medicines prescribed to a patient.
-✅ Add Medical History — Store previous illnesses or treatments.
-✅ Add Current Medical status.
-✅ Search Patient — Quickly search by patient name or medicine used.
-✅ View Patient details.
-✅ View Current Medical status.
-✅ View Medicine records.
-✅ Automatic Delete Cascade — Deleting a patient automatically deletes all related data.
-✅ Modern Swing UI — Clean and professional user interface.
+-✅ Add Patient — Register new patients with details like name, age, gender, blood group, contact info, etc.
+-✅ Add Medicine — Record medicines prescribed to a patient.
+-✅ Add Medical History — Store previous illnesses or treatments.
+-✅ Add Current Medical status.
+-✅ Search Patient — Quickly search by patient name or medicine used.
+-✅ View Patient details.
+-✅ View Current Medical status.
+-✅ View Medicine records.
+-✅ Automatic Delete Cascade — Deleting a patient automatically deletes all related data.
+-✅ Modern Swing UI — Clean and professional user interface.
 
 ##🧩 Tech Stack
 Category	Technology Used:
@@ -51,78 +51,10 @@ Build Tool	Java SE 17 or later
 mysql> use doctors_wallet;
 Database changed
 
-Tables Used,
+<img width="972" height="845" alt="image" src="https://github.com/user-attachments/assets/66452880-6338-4414-aa31-127386886a1e" />
 
-mysql> show tables;
-+--------------------------+
-| Tables_in_doctors_wallet |
-+--------------------------+
-| currnt_med_sts           |
-| doctors_auth             |
-| medical_history          |
-| medicines                |
-| patients                 |
-+--------------------------+
+<img width="1172" height="462" alt="image" src="https://github.com/user-attachments/assets/3b967969-0561-46fa-851b-7d177a4628e4" />
 
-mysql> select*from currnt_med_sts;
-+-----------+---------------------+--------------------+-----------------------------------------------+
-| patientid | name                | diagonized_illness | description                                   |
-+-----------+---------------------+--------------------+-----------------------------------------------+
-|         1 | Aarav Mathew        | Cancer             | Diagonized for cancer                         |
-|         2 | Maria John          | Type 2 Diabetes    | Maintaining sugar levels; continue Metformin. |
-|         3 | Joel Varghese       | High Cholesterol   | Diet control advised; continue Atorvastatin.  |
-|         4 | Aisha Rahman        | Mild Fever         | Continue Paracetamol; increase fluid intake.  |
-|         5 | Rohit Menon         | Allergic Rhinitis  | Continue Cetirizine; avoid dust exposure.     |
-|         6 | Abhiram Namboothiri | High Fever         | Diagonised High fever for 3 weeks             |
-+-----------+---------------------+--------------------+-----------------------------------------------+
-6 rows in set (0.00 sec)
-
-mysql> select * from doctors_auth;
-+-----------------+-------------+
-| username        | password    |
-+-----------------+-------------+
-| Jacob Kuruvilla | doctor@1234 |
-+-----------------+-------------+
-1 row in set (0.00 sec)
-
-mysql> select * from medical_history;;
-+-----------+---------------+----------------------------------------------+
-| patientid | name          | description                                  |
-+-----------+---------------+----------------------------------------------+
-|         1 | Aarav Mathew  | Treated for sinus infection last year.       |
-|         2 | Maria John    | Had gestational diabetes during pregnancy.   |
-|         3 | Joel Varghese | History of hypertension and mild chest pain. |
-|         4 | Aisha Rahman  | Recovered from viral fever two months ago.   |
-|         5 | Rohit Menon   | Seasonal allergies and mild asthma.          |
-+-----------+---------------+----------------------------------------------+
-5 rows in set (0.00 sec)
-
-mysql> select * from medicines;
-+-----------+---------------+------+---------------+----------------------------------------+
-| patientid | name          | age  | medicine_used | med_description                        |
-+-----------+---------------+------+---------------+----------------------------------------+
-|         1 | Aarav Mathew  |   29 | Paracetamol   | For high fever                         |
-|         2 | Maria John    |   35 | Metformin     | Used to control blood sugar (diabetes) |
-|         3 | Joel Varghese |   42 | Atorvastatin  | Lowers cholesterol levels              |
-|         4 | Aisha Rahman  |   31 | Paracetamol   | For fever and mild pain relief         |
-|         5 | Rohit Menon   |   27 | Cetirizine    | Used for allergy and sneezing relief   |
-+-----------+---------------+------+---------------+----------------------------------------+
-5 rows in set (0.00 sec)
-
-mysql> select*from patients;
-+-----------+---------------------+------+--------+-------------+-----------------------------+--------------+----------------+
-| patientid | name                | age  | gender | blood_group | address                     | phone_number | emrgncy_number |
-+-----------+---------------------+------+--------+-------------+-----------------------------+--------------+----------------+
-|         1 | Aarav Mathew        |   29 | Male   | B+          | Kochi,Kerala                | 9876543210   | 9847012345     |
-|         2 | Maria John          |   35 | Female | O+          | Kottayam,Kerala             | 9895123456   | 9447123499     |
-|         3 | Joel Varghese       |   42 | Male   | A-          | Thrissur, Kerala            | 9745123789   | 9526012345     |
-|         4 | Aisha Rahman        |   31 | Female | AB+         | Malappuram,Kerala           | 9567123490   | 9807011122     |
-|         5 | Rohit Menon         |   27 | Male   | B-          | Kozhikode, Kerala           | 9495123344   | 9995011111     |
-|         6 | Abhiram Namboothiri |   28 | Male   | AB-         | Thiruvalla, Pathanamthittta | 9786578213   | 9567465821     |
-+-----------+---------------------+------+--------+-------------+-----------------------------+--------------+----------------+
-6 rows in set (0.00 sec)
-
-mysql>
 
 ##🪟 Project Folder Structure.
 
