@@ -94,5 +94,5 @@ Database changed
 
 ## 📜 License
 
-This project is created as part of an Academic Mini Project under the Computer Science Department of College Of Engineering Kallooppara as per the syllabus of KTU 2024 SCHEME
+This project is created as part of an Academic Mini Project under the Computer Science Department of College Of Engineering Kallooppara as per the syllabus of KTU 2024 SCHEME. 
 Feel free to use or modify it for educational purposes.
