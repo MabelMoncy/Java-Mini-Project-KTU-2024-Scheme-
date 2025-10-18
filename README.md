@@ -8,10 +8,9 @@ Doctor’s Wallet is a Java mini-project developed using Swing (GUI) and MySQL (
 - Features
 - Tech Stack
 - Database Structure
-- Project Screens
+- Project Folder structure
 - Setup Instructions
 - How to Use
-- Future Enhancements
 - Team Members
 - License
 
