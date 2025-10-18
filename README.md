@@ -87,10 +87,10 @@ Database changed
 
 ## 👩‍⚕️ Team Members
 
-1.Mabel Anto Moncy:	Team Lead / Developer	UI design, database integration.
-2.Gopika Girish:	Project Advicer (Biology background).
-3.Anaxa Anna Mathew:	Support	Assist in documentation.
-4.Anandhu: 	Overall eye keeper.
+- 1.Mabel Anto Moncy:	Team Lead / Developer	UI design, database integration.
+- 2.Gopika Girish:	Project Advicer (Biology background).
+- 3.Anaxa Anna Mathew:	Support	Assist in documentation.
+- 4.Anandhu: 	Overall eye keeper.
 
 ## 📜 License
 
